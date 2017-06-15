@@ -65,7 +65,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
-# Deployment
+# Deploymenthexo g
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/NetEase100Fen/NetEase100Fen.github.io.git
+  branch: master
