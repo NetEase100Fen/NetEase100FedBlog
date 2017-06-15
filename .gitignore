@@ -3,8 +3,8 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-.idea/
-public/
+.idea/*
+public/*
 .deploy*/
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm

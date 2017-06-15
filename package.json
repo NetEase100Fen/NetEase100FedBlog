@@ -1,9 +1,13 @@
 {
-  "name": "hexo-site",
+  "name": "NetEase100FedBlog",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "hexo": {
-    "version": ""
+    "version": "3.3.7"
+  },
+  "scripts": {
+    "new": "hexo n",
+    "deploy":"hexo clean && hexo g && hexo d"
   },
   "dependencies": {
     "hexo": "^3.2.0",
