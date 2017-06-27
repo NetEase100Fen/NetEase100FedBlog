@@ -20,6 +20,10 @@
         {% endif %}
       </{% if theme.seo %}h2{% else %}h1{% endif %}>
 
+      {% if post.author %}
+        <div class="post-author"><i class="fa fa-user-o"></i>&nbsp;&nbsp;{{post.author}}</div>
+      {% endif %}
+
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="{{ moment(post.date).format() }}"

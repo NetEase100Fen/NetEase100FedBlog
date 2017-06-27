@@ -56,6 +56,10 @@
           </{% if theme.seo %}h2{% else %}h1{% endif %}>
         {% endif %}
 
+        {% if post.author %}
+        <div class="post-author"><i class="fa fa-user-o"></i>&nbsp;&nbsp;{{post.author}}</div>
+        {% endif %}
+
         <div class="post-meta">
           <span class="post-time">
             {% if theme.post_meta.created_at %}
