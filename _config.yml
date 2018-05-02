@@ -70,5 +70,5 @@ theme: next
 deploy:
   deploy:
   type: git
-  repo: https://github.com/NetEase100Fen/NetEase100Fen.github.io.git
+  repo: ssh://git@github.com/NetEase100Fen/NetEase100Fen.github.io.git
   branch: master
