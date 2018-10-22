@@ -1,0 +1,14 @@
+title: 前端早读-20181022
+date: 2018-10-22
+categories: 前端早读
+author: hyx
+---
+
+1.[数据劫持 OR 数据代理](https://mp.weixin.qq.com/s/SPoxin9LYJ4Bp0goliEaUw)
+Vue在3.0版本之后将用Proxy代替Object.defineProperty()实现双向数据绑定，关于两者的区别看完这篇就可以有一个大致了解了。
+
+2.[从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/post/5a6547d0f265da3e283a1df7)
+一篇详细而全面的文章，将浏览器多进程，JS单线程，JS事件循环机制等碎片化的知识串起，有助于个人知识体系的搭建。
+
+3.[VSCode与ESLint配合保持团队代码风格](https://mp.weixin.qq.com/s/2H5pCpY00T0PFOvdLk_Z3g)
+使用VSCode+EsLint格式化代码，有助于形成团队统一的代码规范，在阅读他人代码时也更为高效便捷~
